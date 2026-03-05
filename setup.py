@@ -6,10 +6,10 @@ with open('requirements.txt') as requirements:
     install_requires = requirements.read().split()
 
 setup(
-    name='frappeclient',
+    name='ctg-frappeclient',
     version=version,
-    author='Rushabh Mehta',
-    author_email='rushabh@erpnext.com',
+    author='ctgalega',
+    author_email='soporte@ctgalega.com',
     packages=[
         'frappeclient'
     ],
