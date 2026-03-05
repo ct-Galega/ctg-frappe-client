@@ -1,6 +1,6 @@
 from setuptools import setup
 
-version = '0.1.0dev'
+version = '0.1.1'
 
 with open('requirements.txt') as requirements:
     install_requires = requirements.read().split()
@@ -11,7 +11,7 @@ setup(
     author='ctgalega',
     author_email='soporte@ctgalega.com',
     packages=[
-        'frappeclient'
+        'ctgfrappeclient'
     ],
     install_requires=install_requires,
     tests_requires=[
